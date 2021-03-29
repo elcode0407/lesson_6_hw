@@ -1,10 +1,11 @@
 package animals;
 
-public class Dog extends Animals{
-    public Dog(int run, int jump, int swim){
-        super(run,jump,swim);
+public class Dog extends Animals {
+    public Dog(int run, int jump, int swim) {
+        super(run, jump, swim);
     }
-    public String getName(){
+
+    public String getName() {
         return "Dog:";
     }
 }
