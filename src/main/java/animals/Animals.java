@@ -4,7 +4,8 @@ public abstract class Animals {
     private int run;
     private int jump;
     private int swim;
-    protected Animals(int run, int jump, int swim){
+
+    protected Animals(int run, int jump, int swim) {
         this.run = run;
         this.jump = jump;
         this.swim = swim;
@@ -14,27 +15,29 @@ public abstract class Animals {
 
     }
 
-    public String run(int dist){
+    public String run(int dist) {
         String s;
-        if(dist >= run){
-             s = "Умеет бегать";
+        if (dist >= run) {
+            s = "Умеет бегать";
         } else {
             s = "Не умеет бегать";
         }
         return s;
     }
-    public String jump(int dist){
+
+    public String jump(int dist) {
         String s;
-        if(dist >= jump){
+        if (dist >= jump) {
             s = "Умеет прыгать";
         } else {
             s = "Не умеет прыгать";
         }
         return s;
     }
-    public String swim(int dist){
+
+    public String swim(int dist) {
         String s;
-        if(dist >= swim){
+        if (dist >= swim) {
             s = "Умеет плавать";
         } else {
             s = "Не умеет плавать";

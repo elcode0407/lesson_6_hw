@@ -20,6 +20,7 @@ public class Main {
         }
 
 
+
         System.out.println("Dog: " + b);
         System.out.println("Cat: " + a);
 
